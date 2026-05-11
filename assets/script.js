@@ -35,7 +35,7 @@ Saya mau pesan undangan
 
     const linkWA = `https://wa.me/${nomorWA}?text=${encodeURIComponent(pesan)}`;
 
-   katalog.innerHTML += `
+  katalog.innerHTML += `
 
   <div class="relative">
 
@@ -51,31 +51,37 @@ Saya mau pesan undangan
       </div>
     ` : ""}
 
-    <div class="bg-white rounded-2xl shadow-sm
-        <div class="relative group">
-          <img src="${item.gambar}" class="w-full aspect-[3/4] sm:aspect-[4/5] object-cover transition duration-500 group-hover:scale-105">
+    <div class="bg-white rounded-2xl shadow-sm hover:shadow-2xl transition duration-300 hover:-translate-y-2 overflow-hidden text-sm group border border-white/40 backdrop-blur">
 
-          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-2">
+      <div class="relative group">
 
-            <a href="${item.link}" target="_blank"
-            class="bg-white/90 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
-              Preview
-            </a>
+        <img src="${item.gambar}"
+          class="w-full aspect-[3/4] sm:aspect-[4/5] object-cover transition duration-500 group-hover:scale-105">
 
-            <a href="${linkWA}" target="_blank"
-            class="bg-green-500 text-white px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
-              Order
-            </a>
+        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-2">
 
-          </div>
-        </div>
+          <a href="${item.link}" target="_blank"
+          class="bg-white/90 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
+            Preview
+          </a>
 
-        <div class="p-3 text-center text-sm sm:text-base font-semibold">
-          ${item.nama}
+          <a href="${linkWA}" target="_blank"
+          class="bg-green-500 text-white px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
+            Order
+          </a>
+
         </div>
 
       </div>
-    `;
+
+      <div class="p-3 text-center text-sm sm:text-base font-semibold">
+        ${item.nama}
+      </div>
+
+    </div>
+
+  </div>
+`;
   });
 
   renderPagination();
