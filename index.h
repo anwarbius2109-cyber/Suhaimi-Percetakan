@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ✅ WA Preview -->
+  <meta property="og:title" content="MSA Invitation" />
+  <meta property="og:description" content="Pilih tema undangan digital elegan & modern. Bisa custom sesuai keinginan kamu 💌" />
+  <meta property="og:image" content="https://undangan-katalog-omega.vercel.app/MSA-H.png" />
+  <meta property="og:url" content="https://undangan-katalog-omega.vercel.app/" />
+  <meta property="og:type" content="website" />
+
+  <title>MSA Invitation</title>
+  <link rel="icon" type="image/png" href="assets/MSA H.png">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- 🔥 TAMBAHKAN INI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/style.css">
+  <!-- AOS ANIMATION -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="relative min-h-screen bg-gradient-to-br from-[#FFF8F2] via-[#F7E7CE] to-[#EADBC8] overflow-x-hidden">
+
+  <!-- GLOW -->
+<div class="fixed inset-0 overflow-hidden -z-10 pointer-events-none">
+
+  <div class="absolute top-[-100px] left-[-100px] w-[400px] h-[400px] bg-[#D4AF37]/20 rounded-full blur-3xl"></div>
+
+  <div class="absolute bottom-[-120px] right-[-120px] w-[400px] h-[400px] bg-pink-200/20 rounded-full blur-3xl"></div>
+
+</div>
+
+<!-- NAVBAR -->
+<header class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur shadow z-50">
+
+  <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+
+    <!-- LOGO -->
+    <div class="flex items-center gap-2">
+
+      <img src="assets/MSA H.png" alt="logo"
+        class="w-8 h-8 object-contain">
+
+      <h1 class="font-bold text-sm md:text-lg">
+        MSA Invitation
+      </h1>
+
+    </div>
+
+    <!-- MENU DESKTOP -->
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+
+      <a href="#" class="hover:text-black text-gray-600">
+        Home
+      </a>
+
+      <a href="#katalog" class="hover:text-black text-gray-600">
+        Tema
+      </a>
+
+      <a href="#paket" class="hover:text-black text-gray-600">
+        Paket
+      </a>
+
+      <a href="#porto" class="hover:text-black text-gray-600">
+        Porto
+      </a>
+
+      <a href="#reseller" class="hover:text-black text-gray-600">
+  Reseller
+</a>
+
+      <a href="https://wa.me/6281261233730"
+        target="_blank"
+        class="bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition">
+
+        Order
+
+      </a>
+
+    </nav>
+
+    <!-- BUTTON MOBILE -->
+    <button id="menuBtn"
+      class="md:hidden text-2xl">
+
+      ☰
+
+    </button>
+
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu"
+    class="hidden md:hidden bg-white border-t px-4 py-4 space-y-3">
+
+    <a href="#"
+      onclick="tutupMenu()"
+      class="block text-gray-700">
+      Home
+    </a>
+
+    <a href="#katalog"
+      onclick="tutupMenu()"
+      class="block text-gray-700">
+      Tema
+    </a>
+
+    <a href="#paket"
+      onclick="tutupMenu()"
+      class="block text-gray-700">
+      Paket
+    </a>
+
+    <a href="#porto"
+      onclick="tutupMenu()"
+      class="block text-gray-700">
+      Portofolio
+    </a>
+
+    <a href="#reseller"
+  onclick="tutupMenu()"
+  class="block text-gray-700">
+  Reseller
+</a>
+
+    <a href="https://wa.me/6281261233730"
+      target="_blank"
+      class="block text-center bg-black text-white py-2 rounded-full">
+
+      Order
+
+    </a>
+
+  </div>
+
+</header>
+  </div>
+</div>
+<!-- HERO -->
+<section class="pt-32 pb-16 text-center" data-aos="fade-up">
+
+  <div class="max-w-4xl mx-auto px-4">
+
+    <!-- BADGE -->
+    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/70 backdrop-blur border border-white/40 shadow-sm mb-6">
+
+      <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+
+      <span class="text-sm text-gray-700">
+        Vendor Undangan Digital Premium
+      </span>
+
+    </div>
+
+    <!-- TITLE -->
+    <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+
+      <span class="bg-gradient-to-r from-black to-gray-500 bg-clip-text text-transparent">
+        MSA INVITATION
+      </span>
+
+    </h1>
+
+    <!-- SUBTITLE -->
+    <p class="text-gray-600 text-base md:text-xl leading-relaxed max-w-3xl mx-auto">
+
+      Vendor Undangan Website Digital terpercaya dengan desain elegan,
+      proses cepat, fitur lengkap, responsif di semua perangkat,
+      dan siap membantu momen spesial Anda menjadi lebih berkesan ✨
+
+    </p>
+
+    <!-- BUTTON -->
+    <div class="flex flex-wrap justify-center gap-4 mt-8">
+
+      <a href="#katalog"
+        class="px-6 py-3 rounded-full bg-black text-white hover:bg-gray-800 transition">
+
+        Lihat Tema
+
+      </a>
+
+      <a href="https://wa.me/6281261233730"
+        target="_blank"
+        class="px-6 py-3 rounded-full bg-white border hover:bg-gray-100 transition">
+
+        Konsultasi Gratis
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- TRUST SECTION -->
+<section class="pb-16" data-aos="fade-up">
+
+  <div class="max-w-5xl mx-auto px-4">
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 items-stretch">
+
+      <!-- 1 -->
+<div class="relative overflow-hidden bg-gradient-to-br from-white to-orange-50 backdrop-blur rounded-3xl h-full flex flex-col justify-center p-4 md:p-6 text-center border border-orange-100 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition duration-300">
+
+  <!-- glow -->
+  <div class="absolute top-[-30px] right-[-30px] w-24 h-24 bg-orange-200/40 blur-2xl rounded-full"></div>
+
+  <!-- icon -->
+  <div class="relative z-10 w-14 h-14 mx-auto rounded-2xl bg-orange-100 flex items-center justify-center mb-4">
+
+    <i class="fas fa-layer-group text-orange-500 text-xl"></i>
+
+  </div>
+
+  <!-- angka -->
+  <h3 class="relative z-10 text-3xl md:text-4xl font-bold">
+    500+
+  </h3>
+
+  <p class="relative z-10 text-gray-500 text-sm mt-2">
+    Tema Premium
+  </p>
+
+  <!-- mini preview -->
+  <div class="relative z-10 flex justify-center mt-5">
+
+    <img src="assets/a.jpeg"
+      class="w-12 h-20 object-cover rounded-lg border-2 border-white shadow rotate-[-8deg]">
+
+    <img src="assets/b.jpeg"
+      class="w-12 h-20 object-cover rounded-lg border-2 border-white shadow -ml-3">
+
+    <img src="assets/c.jpeg"
+      class="w-12 h-20 object-cover rounded-lg border-2 border-white shadow rotate-[8deg] -ml-3">
+
+  </div>
+
+</div>
+      <!-- 2 -->
+<div class="relative overflow-hidden bg-gradient-to-br from-white to-pink-50 backdrop-blur rounded-3xl h-full flex flex-col justify-center p-4 md:p-6 text-center border border-pink-100 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition duration-300">
+
+  <div class="absolute bottom-[-30px] left-[-30px] w-24 h-24 bg-pink-200/40 blur-2xl rounded-full"></div>
+
+  <div class="relative z-10 w-14 h-14 mx-auto rounded-2xl bg-pink-100 flex items-center justify-center mb-4">
+
+    <i class="fas fa-heart text-pink-500 text-xl"></i>
+
+  </div>
+
+  <h3 class="relative z-10 text-3xl md:text-4xl font-bold">
+    1000+
+  </h3>
+
+  <p class="relative z-10 text-gray-500 text-sm mt-2">
+    Client Puas
+  </p>
+
+  <div class="relative z-10 flex justify-center gap-1 mt-5 text-yellow-400 text-sm">
+
+    ★★★★★
+
+  </div>
+
+</div>
+  <!-- 3 -->
+<div class="relative overflow-hidden bg-gradient-to-br from-white to-blue-50 backdrop-blur rounded-3xl h-full flex flex-col justify-center p-4 md:p-6 text-center border border-blue-100 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition duration-300">
+
+  <div class="absolute top-[-30px] left-[-30px] w-24 h-24 bg-blue-200/40 blur-2xl rounded-full"></div>
+
+  <div class="relative z-10 w-14 h-14 mx-auto rounded-2xl bg-blue-100 flex items-center justify-center mb-4">
+
+    <i class="fas fa-bolt text-blue-500 text-xl"></i>
+
+  </div>
+
+  <h3 class="relative z-10 text-3xl md:text-4xl font-bold">
+    24 Jam
+  </h3>
+
+  <p class="relative z-10 text-gray-500 text-sm mt-2">
+    Proses Cepat
+  </p>
+
+  <div class="relative z-10 mt-5 text-xs text-blue-500 font-medium">
+    Fast Response Admin
+  </div>
+
+</div>
+      <!-- 4 -->
+<div class="relative overflow-hidden bg-gradient-to-br from-white to-green-50 backdrop-blur rounded-3xl h-full flex flex-col justify-center p-4 md:p-6 text-center border border-green-100 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition duration-300">
+
+  <div class="absolute bottom-[-30px] right-[-30px] w-24 h-24 bg-green-200/40 blur-2xl rounded-full"></div>
+
+  <div class="relative z-10 w-14 h-14 mx-auto rounded-2xl bg-green-100 flex items-center justify-center mb-4">
+
+    <i class="fas fa-mobile-screen-button text-green-500 text-xl"></i>
+
+  </div>
+
+  <h3 class="relative z-10 text-3xl md:text-4xl font-bold">
+    100%
+  </h3>
+
+  <p class="relative z-10 text-gray-500 text-sm mt-2">
+    Mobile Friendly
+  </p>
+
+  <div class="relative z-10 mt-5 text-xs text-green-500 font-medium">
+    Responsive Semua Device
+  </div>
+
+</div>
+
+</div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="pt-24 md:pt-32" data-aos="fade-up">
+  <div class="max-w-6xl mx-auto px-4">
+
+    <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12 max-w-3xl mx-auto leading-snug">
+      <span class="text-gradient">MSA Invitation</span> menyediakan
+      berbagai fitur untuk mendukung acara Anda dari A-Z:
+    </h2>
+
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+  <!-- 1 -->
+  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
+    <div class="w-12 h-12 flex items-center justify-center bg-pink-100 text-pink-600 rounded-xl mb-4 text-xl">
+      <i class="fas fa-envelope-open-text"></i>
+    </div>
+    <h3 class="text-lg font-semibold mb-2">Desain Tema Elegan</h3>
+    <p class="text-sm text-gray-600">
+      Tersedia lebih dari 500+ tema modern, adat, classic, dan berbagai kategori event.
+    </p>
+  </div>
+
+  <!-- 2 -->
+  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
+    <div class="w-12 h-12 flex items-center justify-center bg-blue-100 text-blue-600 rounded-xl mb-4 text-xl">
+      <i class="fas fa-calendar-check"></i>
+    </div>
+    <h3 class="text-lg font-semibold mb-2">Fitur RSVP & Buku Tamu</h3>
+    <p class="text-sm text-gray-600">
+      Sistem pelacakan RSVP terintegrasi memungkinkan Anda memantau status kehadiran tamu.
+    </p>
+  </div>
+
+  <!-- 3 -->
+  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
+    <div class="w-12 h-12 flex items-center justify-center bg-purple-100 text-purple-600 rounded-xl mb-4 text-xl">
+      <i class="fas fa-image"></i>
+    </div>
+    <h3 class="text-lg font-semibold mb-2">Galeri Foto & Video</h3>
+    <p class="text-sm text-gray-600">
+      Tampilkan kisah cinta Anda dengan cara yang berkesan dengan foto dan video prewedding.
+    </p>
+  </div>
+
+  <!-- 4 -->
+  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
+    <div class="w-12 h-12 flex items-center justify-center bg-green-100 text-green-600 rounded-xl mb-4 text-xl">
+      <i class="fas fa-map-marker-alt"></i>
+    </div>
+    <h3 class="text-lg font-semibold mb-2">Lokasi & Navigasi</h3>
+    <p class="text-sm text-gray-600">
+      Arahkan tamu langsung ke lokasi acara dengan Google Maps tanpa ribet.
+    </p>
+  </div>
+
+  <!-- 5 -->
+  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
+    <div class="w-12 h-12 flex items-center justify-center bg-yellow-100 text-yellow-600 rounded-xl mb-4 text-xl">
+      <i class="fas fa-music"></i>
+    </div>
+    <h3 class="text-lg font-semibold mb-2">Musik Latar</h3>
+    <p class="text-sm text-gray-600">
+      Tambahkan sentuhan emosional dengan musik favorit sebagai latar undangan.
+    </p>
+  </div>
+
+  <!-- 6 -->
+  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
+    <div class="w-12 h-12 flex items-center justify-center bg-indigo-100 text-indigo-600 rounded-xl mb-4 text-xl">
+      <i class="fas fa-feather"></i>
+    </div>
+    <h3 class="text-lg font-semibold mb-2">Ucapan & Do'a</h3>
+    <p class="text-sm text-gray-600">
+      Tamu dapat mengirimkan ucapan & doa langsung melalui undangan Anda.
+    </p>
+  </div>
+
+</div>
+
+    </div>
+  </div>
+</section>
+
+<!-- HERO -->
+<section class="text-center py-10">
+
+  <h2 class="text-2xl font-bold">
+    Pilih Tema Undangan Kamu
+  </h2>
+
+  <p class="text-gray-500 mt-2">
+    Klik preview untuk lihat demo
+  </p>
+
+</section>
+
+<!-- FILTER -->
+<div class="max-w-6xl mx-auto px-4 mb-8 flex gap-3 flex-wrap justify-center">
+
+  <button onclick="filterKategori('all')" class="btn-filter active">
+    Semua
+  </button>
+
+  <button onclick="filterKategori('tanpafoto')" class="btn-filter">
+    Tanpa Foto
+  </button>
+
+  <button onclick="filterKategori('kartun')" class="btn-filter">
+    Kartun
+  </button>
+
+  <button onclick="filterKategori('wedding')" class="btn-filter">
+    Wedding
+  </button>
+
+  <button onclick="filterKategori('khitan')" class="btn-filter">
+    Khitan
+  </button>
+
+  <button onclick="filterKategori('aqiqah')" class="btn-filter">
+    Aqiqah
+  </button>
+
+  <button onclick="filterKategori('ulangtahun')" class="btn-filter">
+    Ulang Tahun
+  </button>
+
+</div>
+
+<!-- KATALOG -->
+<section class="max-w-6xl mx-auto px-4 pb-10">
+
+  <!-- SEARCH -->
+  <div class="search-box mb-5">
+    <input 
+      type="text"
+      id="search"
+      placeholder="Cari tema, warna, adat..."
+      class="w-full px-4 py-3 rounded-2xl border border-gray-200 outline-none"
+    >
+  </div>
+
+  <!-- KATALOG -->
+  <div id="katalog" class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 scroll-mt-36"></div>
+
+</section>
+<section id="paket" class="py-24" data-aos="fade-up">
+
+  <div class="max-w-7xl mx-auto px-4">
+
+    <!-- TITLE -->
+    <div class="text-center mb-16">
+
+      <span class="px-4 py-2 rounded-full bg-black text-white text-sm">
+        Pricing Package
+      </span>
+
+      <h2 class="text-4xl md:text-5xl font-bold mt-6 mb-4 leading-tight">
+        Pilih Paket
+        <span class="text-gray-400">
+          Sesuai Kebutuhan
+        </span>
+      </h2>
+
+      <p class="max-w-2xl mx-auto text-gray-500 leading-relaxed">
+        Kami menyediakan berbagai pilihan paket undangan digital
+        dengan fitur lengkap, tampilan premium, dan proses pengerjaan cepat.
+      </p>
+
+    </div>
+
+    <!-- GRID -->
+    <div class="grid md:grid-cols-3 gap-8 items-stretch">
+
+      <!-- BASIC -->
+      <div class="rounded-3xl bg-white border border-gray-200 p-8 hover:shadow-2xl transition duration-300">
+
+        <div class="mb-8">
+
+          <span class="text-sm text-gray-500">
+            Paket Hemat
+          </span>
+
+          <h3 class="text-3xl font-bold mt-2 mb-3">
+            Basic
+          </h3>
+
+          <div class="flex items-center gap-3">
+
+            <span class="text-gray-400 line-through">
+              Rp150.000
+            </span>
+
+            <span class="text-4xl font-bold">
+              Rp59K
+            </span>
+
+          </div>
+
+        </div>
+
+        <ul class="space-y-4 text-gray-600 mb-10">
+
+          <li>✔ Max 5x Revisi</li>
+          <li>✔ Unlimited Tamu</li>
+          <li>✔ Musik Latar</li>
+          <li>✔ Google Maps</li>
+          <li>✔ RSVP & Ucapan</li>
+          <li>✔ Amplop Digital</li>
+          <li>✔ Tanpa Foto</li>
+
+        </ul>
+
+        <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Basic"
+          target="_blank"
+          class="block text-center py-3 rounded-2xl border border-black hover:bg-black hover:text-white transition">
+
+          Pilih Paket Basic
+
+        </a>
+
+      </div>
+
+      <!-- PREMIUM -->
+      <div class="rounded-3xl bg-black text-white p-8 scale-105 shadow-2xl relative overflow-hidden">
+
+        <!-- BADGE -->
+        <div class="absolute top-5 right-5">
+
+          <span class="bg-yellow-400 text-black text-xs font-semibold px-3 py-1 rounded-full">
+            BEST SELLER
+          </span>
+
+        </div>
+
+        <div class="absolute top-[-80px] right-[-80px] w-[200px] h-[200px] bg-yellow-400/20 rounded-full blur-3xl"></div>
+
+        <div class="relative z-10">
+
+          <div class="mb-8">
+
+            <span class="text-sm text-gray-300">
+              Paket Favorit
+            </span>
+
+            <h3 class="text-3xl font-bold mt-2 mb-3">
+              Premium
+            </h3>
+
+            <div class="flex items-center gap-3">
+
+              <span class="text-gray-400 line-through">
+                Rp150.000
+              </span>
+
+              <span class="text-5xl font-bold">
+                Rp80K
+              </span>
+
+            </div>
+
+          </div>
+
+          <ul class="space-y-4 text-gray-200 mb-10">
+
+            <li>✔ Max 10x Revisi</li>
+            <li>✔ Unlimited Tamu</li>
+            <li>✔ Musik Latar</li>
+            <li>✔ Google Maps</li>
+            <li>✔ RSVP & Ucapan</li>
+            <li>✔ Amplop Digital</li>
+            <li>✔ Galeri Foto</li>
+
+          </ul>
+
+          <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Premium"
+            target="_blank"
+            class="block text-center py-3 rounded-2xl bg-white text-black font-semibold hover:scale-105 transition">
+
+            Pilih Paket Premium
+
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- PRIORITAS -->
+      <div class="rounded-3xl bg-white border border-gray-200 p-8 hover:shadow-2xl transition duration-300">
+
+        <div class="mb-8">
+
+          <span class="text-sm text-gray-500">
+            Paket Lengkap
+          </span>
+
+          <h3 class="text-3xl font-bold mt-2 mb-3">
+            Prioritas
+          </h3>
+
+          <div class="flex items-center gap-3">
+
+            <span class="text-gray-400 line-through">
+              Rp150.000
+            </span>
+
+            <span class="text-4xl font-bold">
+              Rp120K
+            </span>
+
+          </div>
+
+        </div>
+
+        <ul class="space-y-4 text-gray-600 mb-10">
+
+          <li>✔ Max 15x Revisi</li>
+          <li>✔ Unlimited Tamu</li>
+          <li>✔ Musik Latar</li>
+          <li>✔ Google Maps</li>
+          <li>✔ RSVP & Ucapan</li>
+          <li>✔ Amplop Digital</li>
+          <li>✔ Galeri Foto</li>
+          <li>✔ Love Story</li>
+          <li>✔ Turut Mengundang</li>
+          <li>✔ Video Prewedding</li>
+
+        </ul>
+
+        <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Prioritas"
+          target="_blank"
+          class="block text-center py-3 rounded-2xl border border-black hover:bg-black hover:text-white transition">
+
+          Pilih Paket Prioritas
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+ <!-- TESTIMONI -->
+<section class="py-20" data-aos="fade-up">
+
+  <div class="max-w-6xl mx-auto px-4">
+
+    <!-- TITLE -->
+    <div class="text-center mb-14">
+
+      <span class="px-4 py-2 rounded-full bg-black text-white text-sm">
+        Testimoni Customer
+      </span>
+
+      <h2 class="text-4xl md:text-5xl font-bold mt-6 mb-4">
+        Apa Kata Mereka?
+      </h2>
+
+      <p class="text-gray-500 max-w-2xl mx-auto">
+        Kepuasan customer adalah prioritas utama kami ✨
+      </p>
+
+    </div>
+
+    <!-- GRID -->
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <!-- 1 -->
+      <div class="bg-white/70 backdrop-blur border border-white/40 rounded-3xl p-8 shadow-sm hover:shadow-2xl transition">
+
+        <div class="text-yellow-400 text-xl mb-4">
+          ★★★★★
+        </div>
+
+        <p class="text-gray-600 leading-relaxed mb-6">
+          “Pelayanannya cepat banget, desain undangannya juga elegan dan premium. Recommended!”
+        </p>
+
+        <div>
+          <h3 class="font-semibold">
+            Siti & Rizky
+          </h3>
+
+          <p class="text-sm text-gray-400">
+            Wedding Invitation
+          </p>
+        </div>
+
+      </div>
+
+      <!-- 2 -->
+      <div class="bg-white/70 backdrop-blur border border-white/40 rounded-3xl p-8 shadow-sm hover:shadow-2xl transition">
+
+        <div class="text-yellow-400 text-xl mb-4">
+          ★★★★★
+        </div>
+
+        <p class="text-gray-600 leading-relaxed mb-6">
+          “Banyak pilihan tema dan admin sangat ramah membantu revisi. Hasilnya melebihi ekspektasi.”
+        </p>
+
+        <div>
+          <h3 class="font-semibold">
+            Nabila Family
+          </h3>
+
+          <p class="text-sm text-gray-400">
+            Aqiqah Invitation
+          </p>
+        </div>
+
+      </div>
+
+      <!-- 3 -->
+      <div class="bg-white/70 backdrop-blur border border-white/40 rounded-3xl p-8 shadow-sm hover:shadow-2xl transition">
+
+        <div class="text-yellow-400 text-xl mb-4">
+          ★★★★★
+        </div>
+
+        <p class="text-gray-600 leading-relaxed mb-6">
+          “Tampilannya modern, mobile friendly, dan proses pengerjaannya sangat cepat.”
+        </p>
+
+        <div>
+          <h3 class="font-semibold">
+            Andi Pratama
+          </h3>
+
+          <p class="text-sm text-gray-400">
+            Khitan Invitation
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>   
+<section id="porto" class="max-w-6xl mx-auto px-4 py-16" data-aos="fade-up">
+
+  <h2 class="text-2xl font-bold text-center mb-10">
+    Portfolio Kami
+  </h2>
+
+   <p class="text-center max-w-2xl mx-auto mb-10 opacity-80">
+      Hasil Undangan Digital Yang Kami Buat Dengan Sepenuh Hati
+    </p>
+      
+  <div id="portoList" class="grid md:grid-cols-3 gap-6"></div>
+
+</section>
+  <!-- RESELLER -->
+<section id="reseller" class="py-20" data-aos="fade-up">
+
+  <div class="max-w-6xl mx-auto px-4">
+
+    <div class="rounded-3xl bg-gradient-to-br from-black to-gray-800 text-white p-8 md:p-14 overflow-hidden relative">
+
+      <!-- GLOW -->
+      <div class="absolute top-[-100px] right-[-100px] w-[250px] h-[250px] bg-yellow-400/20 blur-3xl rounded-full"></div>
+
+      <div class="relative z-10">
+
+        <!-- TITLE -->
+        <div class="text-center mb-12">
+
+          <span class="px-4 py-2 rounded-full bg-white/10 border border-white/20 text-sm">
+            Program Reseller
+          </span>
+
+          <h2 class="text-3xl md:text-5xl font-bold mt-6 mb-4 leading-tight">
+
+            Join Reseller
+            <br>
+            MSA Invitation ✨
+
+          </h2>
+
+          <p class="text-gray-300 max-w-3xl mx-auto leading-relaxed">
+
+            Mulai bisnis undangan digital tanpa perlu bisa coding atau desain.
+            Cocok untuk pelajar, freelancer, admin wedding, maupun yang ingin
+            menambah penghasilan dari rumah.
+
+          </p>
+
+        </div>
+
+        <!-- BENEFIT -->
+        <div class="grid md:grid-cols-3 gap-6 mb-12">
+
+          <!-- 1 -->
+          <div class="rounded-2xl bg-white/5 border border-white/10 p-6 backdrop-blur">
+
+            <div class="text-3xl mb-4">
+              💰
+            </div>
+
+            <h3 class="text-xl font-semibold mb-2">
+              Profit Menarik
+            </h3>
+
+            <p class="text-gray-300 text-sm leading-relaxed">
+              Ambil keuntungan sendiri dari setiap penjualan undangan digital.
+            </p>
+
+          </div>
+
+          <!-- 2 -->
+          <div class="rounded-2xl bg-white/5 border border-white/10 p-6 backdrop-blur">
+
+            <div class="text-3xl mb-4">
+              ⚡
+            </div>
+
+            <h3 class="text-xl font-semibold mb-2">
+              Proses Cepat
+            </h3>
+
+            <p class="text-gray-300 text-sm leading-relaxed">
+              Tim kami membantu proses pengerjaan sehingga kamu tinggal fokus jualan.
+            </p>
+
+          </div>
+
+          <!-- 3 -->
+          <div class="rounded-2xl bg-white/5 border border-white/10 p-6 backdrop-blur">
+
+            <div class="text-3xl mb-4">
+              🎨
+            </div>
+
+            <h3 class="text-xl font-semibold mb-2">
+              500+ Tema Premium
+            </h3>
+
+            <p class="text-gray-300 text-sm leading-relaxed">
+              Banyak pilihan tema elegan dan modern siap dipasarkan kembali.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- CTA -->
+        <div class="text-center">
+
+          <a href="https://wa.me/6281261233730?text=Halo+saya+ingin+join+reseller"
+            target="_blank"
+            class="inline-block px-8 py-4 rounded-full bg-white text-black font-semibold hover:scale-105 transition">
+
+            Gabung Reseller Sekarang
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- 🔥 FOOTER TARUH DI SINI -->
+<footer class="bg-white mt-10 border-t">
+
+  <div class="max-w-6xl mx-auto px-4 py-8 text-center">
+
+    <p class="text-sm text-gray-500 mb-2">
+      © MSA Invitation - Undangan Website Termurah
+    </p>
+
+    <p class="text-sm text-gray-400 mb-6">
+      Aceh, Indonesia
+    </p>
+
+<div class="flex justify-center gap-5 text-xl">
+
+  <!-- INSTAGRAM -->
+  <a href="https://www.instagram.com/msa_invitation?igsh=b3ByZXFiYWM4eXg5" target="_blank"
+     class="text-gray-500 hover:text-black hover:scale-110 transition">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <!-- TIKTOK -->
+  <a href="https://www.tiktok.com/@msainvitation?_t=ZS-8vaFXliIlsd&_r=1" target="_blank"
+     class="text-gray-500 hover:text-black hover:scale-110 transition">
+    <i class="fab fa-tiktok"></i>
+  </a>
+
+  <!-- FACEBOOK -->
+  <a href="https://www.facebook.com/share/1EvFyyPU51/" target="_blank"
+     class="text-gray-500 hover:text-black hover:scale-110 transition">
+    <i class="fab fa-facebook"></i>
+  </a>
+
+</div>
+
+  </div>
+
+</footer>
+
+<!-- SCRIPT -->
+  <script src="assets/script.js"></script>
+  <!-- SCRIPT MENU MOBILE -->
+<script>
+function tutupMenu() {
+  const menu = document.getElementById("mobileMenu");
+  const btn = document.getElementById("menuBtn");
+
+  if (menu) menu.classList.add("hidden");
+  if (btn) btn.innerText = "☰";
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const btn = document.getElementById("menuBtn");
+  const menu = document.getElementById("mobileMenu");
+
+  if (btn && menu) {
+    btn.addEventListener("click", function () {
+      menu.classList.toggle("hidden");
+      btn.innerText = menu.classList.contains("hidden") ? "☰" : "✕";
+    });
+  }
+});
+</script>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/6281261233730"
+   target="_blank"
+   class="fixed bottom-5 right-5 z-50 flex items-center gap-3 bg-green-500 text-white px-5 py-3 rounded-full shadow-2xl hover:scale-105 transition duration-300">
+
+   <i class="fab fa-whatsapp text-2xl"></i>
+
+   <span class="hidden md:block font-medium">
+      Chat Admin
+   </span>
+
+</a>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+  duration: 800,
+  once: true
+});
+</script>
+</body>
+</html>
