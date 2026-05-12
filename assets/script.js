@@ -78,47 +78,24 @@ Saya mau pesan undangan
 
 katalog.innerHTML += `
 
-<div class="relative">
+<!-- tombol -->
+<div class="p-3 flex gap-2">
 
-  <div class="bg-white rounded-2xl shadow-sm hover:shadow-2xl transition duration-300 hover:-translate-y-2 overflow-hidden text-sm group border border-white/40 backdrop-blur">
+  <a href="${item.link}" target="_blank"
+  class="flex-1 text-center bg-black text-white py-2.5 rounded-xl text-sm font-semibold active:scale-95 transition">
 
-    <!-- gambar -->
-    <div class="relative">
+    Preview
 
-      <img src="${item.gambar}"
-        class="w-full aspect-[3/4] sm:aspect-[4/5] object-cover transition duration-500">
+  </a>
 
-    </div>
+  <a href="${linkWA}" target="_blank"
+  class="flex-1 text-center bg-green-500 text-white py-2.5 rounded-xl text-sm font-semibold active:scale-95 transition">
 
-    <!-- tombol -->
-    <div class="p-3 flex gap-2">
+    Order
 
-      <a href="${item.link}" target="_blank"
-      class="flex-1 text-center bg-black text-white py-2.5 rounded-xl text-sm font-semibold active:scale-95 transition">
-
-        Preview
-
-      </a>
-
-      <a href="${linkWA}" target="_blank"
-      class="flex-1 text-center bg-green-500 text-white py-2.5 rounded-xl text-sm font-semibold active:scale-95 transition">
-
-        Order
-
-      </a>
-
-    </div>
-
-    <!-- nama -->
-    <div class="px-3 pb-4 text-center text-sm sm:text-base font-semibold">
-      ${item.nama}
-    </div>
-
-  </div>
+  </a>
 
 </div>
-`;
-  });
 
   renderPagination();
 }
