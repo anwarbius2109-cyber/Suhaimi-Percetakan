@@ -90,14 +90,14 @@ Saya mau pesan undangan
         <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex flex-col sm:flex-row items-center justify-center gap-3 px-3">
 
           <a href="${item.link}" target="_blank"
-          class="bg-white/90 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
-            Preview
-          </a>
+class="w-full sm:w-auto text-center bg-white/95 px-4 py-2.5 rounded-xl text-sm font-semibold active:scale-95 transition">
+  Preview
+</a>
 
-          <a href="${linkWA}" target="_blank"
-          class="bg-green-500 text-white px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
-            Order
-          </a>
+<a href="${linkWA}" target="_blank"
+class="w-full sm:w-auto text-center bg-green-500 text-white px-4 py-2.5 rounded-xl text-sm font-semibold active:scale-95 transition">
+  Order
+</a>
 
         </div>
 
