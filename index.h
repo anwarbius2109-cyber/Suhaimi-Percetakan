@@ -335,73 +335,109 @@
       berbagai fitur untuk mendukung acara Anda dari A-Z:
     </h2>
 
-    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+   <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
 
   <!-- 1 -->
-  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
-    <div class="w-12 h-12 flex items-center justify-center bg-pink-100 text-pink-600 rounded-xl mb-4 text-xl">
-      <i class="fas fa-envelope-open-text"></i>
-    </div>
-    <h3 class="text-lg font-semibold mb-2">Desain Tema Elegan</h3>
-    <p class="text-sm text-gray-600">
-      Tersedia lebih dari 500+ tema modern, adat, classic, dan berbagai kategori event.
-    </p>
+<div class="p-5 rounded-2xl border bg-white/70 backdrop-blur hover:shadow-lg transition text-center">
+
+  <div class="w-12 h-12 mx-auto flex items-center justify-center bg-pink-100 text-pink-600 rounded-2xl mb-3 text-xl">
+    <i class="fas fa-envelope-open-text"></i>
   </div>
 
-  <!-- 2 -->
-  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
-    <div class="w-12 h-12 flex items-center justify-center bg-blue-100 text-blue-600 rounded-xl mb-4 text-xl">
-      <i class="fas fa-calendar-check"></i>
-    </div>
-    <h3 class="text-lg font-semibold mb-2">Fitur RSVP & Buku Tamu</h3>
-    <p class="text-sm text-gray-600">
-      Sistem pelacakan RSVP terintegrasi memungkinkan Anda memantau status kehadiran tamu.
-    </p>
+  <h3 class="text-sm md:text-lg font-semibold mb-2">
+    Tema Elegan
+  </h3>
+
+  <p class="text-xs md:text-sm text-gray-600 leading-relaxed">
+    500+ tema modern & premium.
+  </p>
+
+</div>
+
+<!-- 2 -->
+<div class="p-5 rounded-2xl border bg-white/70 backdrop-blur hover:shadow-lg transition text-center">
+
+  <div class="w-12 h-12 mx-auto flex items-center justify-center bg-blue-100 text-blue-600 rounded-2xl mb-3 text-xl">
+    <i class="fas fa-calendar-check"></i>
   </div>
 
-  <!-- 3 -->
-  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
-    <div class="w-12 h-12 flex items-center justify-center bg-purple-100 text-purple-600 rounded-xl mb-4 text-xl">
-      <i class="fas fa-image"></i>
-    </div>
-    <h3 class="text-lg font-semibold mb-2">Galeri Foto & Video</h3>
-    <p class="text-sm text-gray-600">
-      Tampilkan kisah cinta Anda dengan cara yang berkesan dengan foto dan video prewedding.
-    </p>
+  <h3 class="text-sm md:text-lg font-semibold mb-2">
+    RSVP
+  </h3>
+
+  <p class="text-xs md:text-sm text-gray-600 leading-relaxed">
+    Pantau kehadiran tamu otomatis.
+  </p>
+
+</div>
+
+<!-- 3 -->
+<div class="p-5 rounded-2xl border bg-white/70 backdrop-blur hover:shadow-lg transition text-center">
+
+  <div class="w-12 h-12 mx-auto flex items-center justify-center bg-purple-100 text-purple-600 rounded-2xl mb-3 text-xl">
+    <i class="fas fa-image"></i>
   </div>
 
-  <!-- 4 -->
-  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
-    <div class="w-12 h-12 flex items-center justify-center bg-green-100 text-green-600 rounded-xl mb-4 text-xl">
-      <i class="fas fa-map-marker-alt"></i>
-    </div>
-    <h3 class="text-lg font-semibold mb-2">Lokasi & Navigasi</h3>
-    <p class="text-sm text-gray-600">
-      Arahkan tamu langsung ke lokasi acara dengan Google Maps tanpa ribet.
-    </p>
+  <h3 class="text-sm md:text-lg font-semibold mb-2">
+    Galeri
+  </h3>
+
+  <p class="text-xs md:text-sm text-gray-600 leading-relaxed">
+    Foto & video prewedding.
+  </p>
+
+</div>
+
+<!-- 4 -->
+<div class="p-5 rounded-2xl border bg-white/70 backdrop-blur hover:shadow-lg transition text-center">
+
+  <div class="w-12 h-12 mx-auto flex items-center justify-center bg-green-100 text-green-600 rounded-2xl mb-3 text-xl">
+    <i class="fas fa-map-marker-alt"></i>
   </div>
 
-  <!-- 5 -->
-  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
-    <div class="w-12 h-12 flex items-center justify-center bg-yellow-100 text-yellow-600 rounded-xl mb-4 text-xl">
-      <i class="fas fa-music"></i>
-    </div>
-    <h3 class="text-lg font-semibold mb-2">Musik Latar</h3>
-    <p class="text-sm text-gray-600">
-      Tambahkan sentuhan emosional dengan musik favorit sebagai latar undangan.
-    </p>
+  <h3 class="text-sm md:text-lg font-semibold mb-2">
+    Maps
+  </h3>
+
+  <p class="text-xs md:text-sm text-gray-600 leading-relaxed">
+    Navigasi lokasi langsung.
+  </p>
+
+</div>
+
+<!-- 5 -->
+<div class="p-5 rounded-2xl border bg-white/70 backdrop-blur hover:shadow-lg transition text-center">
+
+  <div class="w-12 h-12 mx-auto flex items-center justify-center bg-yellow-100 text-yellow-600 rounded-2xl mb-3 text-xl">
+    <i class="fas fa-music"></i>
   </div>
 
-  <!-- 6 -->
-  <div class="p-6 rounded-xl border bg-white/70 backdrop-blur hover:shadow-lg transition">
-    <div class="w-12 h-12 flex items-center justify-center bg-indigo-100 text-indigo-600 rounded-xl mb-4 text-xl">
-      <i class="fas fa-feather"></i>
-    </div>
-    <h3 class="text-lg font-semibold mb-2">Ucapan & Do'a</h3>
-    <p class="text-sm text-gray-600">
-      Tamu dapat mengirimkan ucapan & doa langsung melalui undangan Anda.
-    </p>
+  <h3 class="text-sm md:text-lg font-semibold mb-2">
+    Musik
+  </h3>
+
+  <p class="text-xs md:text-sm text-gray-600 leading-relaxed">
+    Musik latar favorit.
+  </p>
+
+</div>
+
+<!-- 6 -->
+<div class="p-5 rounded-2xl border bg-white/70 backdrop-blur hover:shadow-lg transition text-center">
+
+  <div class="w-12 h-12 mx-auto flex items-center justify-center bg-indigo-100 text-indigo-600 rounded-2xl mb-3 text-xl">
+    <i class="fas fa-feather"></i>
   </div>
+
+  <h3 class="text-sm md:text-lg font-semibold mb-2">
+    Ucapan
+  </h3>
+
+  <p class="text-xs md:text-sm text-gray-600 leading-relaxed">
+    Kirim doa & ucapan online.
+  </p>
+
+</div>
 
 </div>
 
