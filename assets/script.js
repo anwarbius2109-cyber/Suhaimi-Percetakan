@@ -236,9 +236,9 @@ fetch("data/porto.json")
     </div>
 
     <!-- NAMA -->
-    <div class="mt-2 text-center text-sm md:text-base font-semibold line-clamp-1">
-      ${item.nama}
-    </div>
+<div class="mt-2 text-center text-xs md:text-sm font-semibold leading-tight line-clamp-2 min-h-[38px]">
+  ${item.nama}
+</div>
 
   </a>
 
