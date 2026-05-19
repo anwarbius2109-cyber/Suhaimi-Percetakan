@@ -1,5 +1,19 @@
 [
   {
+     "nama": "Java Banjar",
+    "gambar": "assets/Java Banjar.png",
+    "link": "https://id.sudahnikah.com/d/Java-Banjar-C?kpd=Tamu+Undangan",
+    "kategori": "wedding",
+    "keyword": ["java","hijau","cream","gold","adat","jawa"]
+  },
+  {
+     "nama": "Brown Java",
+    "gambar": "assets/Brown Java.png",
+    "link": "https://id.sudahnikah.com/d/Brown-Java-C?kpd=Tamu+Undangan",
+    "kategori": "wedding",
+    "keyword": ["java","coklat","cream","hitam","adat","jawa"]
+  },
+  {
     "nama": "Pakpak Banjar",
     "gambar": "assets/Pakpak Banjar.png",
     "link": "https://id.sudahnikah.com/d/Pakpak-Banjar-C?kpd=Tamu+Undangan",
